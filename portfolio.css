@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0px auto;
+}
+#header {
+	background-color:rgb(230,230,230);
+	padding: 10px 0px;
+}
+#header h1 {
+	font-family: comic sans MS;
+	display: inline-block;
+	width: 400px;
+	margin-left:20px;
+	font-weight: bold;
+}
+
+#header p{
+display: inline-block;
+vertical-align:top;
+margin-top:8px;
+width: 520px;
+text-align: right;
+font-size: 20px;
+font-weight: bold;
+}
+
+#main {
+	background: radial-gradient(#6f5964, #1f0f13);
+	padding: 20px;
+}
+
+#about {
+	margin-bottom: 20px;
+}
+
+#about a {
+	color: black;
+}
+
+#about img {
+	height: 250px;
+	border: 3px solid gray;
+}
+
+#about div { 
+	display: inline-block;
+	vertical-align: top;
+	height: 256px;
+	width: 540px;
+	margin-left:28px;
+	background: linear-gradient(to bottom right, #fefefe, #dbcbda)
+}
+
+#about div h2, #projects div h3, #projects div h4 {
+	padding: 10px;
+	background: linear-gradient(#bdbdbf, #888694, #bdbdbf);
+	text-align: left;
+	color: white;
+}
+
+#about div p {
+	padding: 10px;
+}
+#about div a {
+	display: block;
+	padding: 10px;
+}
+
+#projects div {
+	display: inline-block;
+	vertical-align:top ;
+	margin-right: 24px;
+	width: 300px;
+	background-color:white;
+	text-align: center;
+	background: linear-gradient(to bottom right, #fefefe, #dbcbda)
+}
+
+#projects div:last-of-type{
+	margin:0px;
+}
+
+#projects div img {
+	width: 300px;
+}
+
+#projects div p {
+	margin-top: -6px;
+	padding: 6px;
+	height: 140px;
+	text-align: left;
+	font-size: 14px;
+}
+
+#projects div div {
+	text-align: left;
+}
+
+#projects div div img {
+	width: 50px;
+	margin: 3px;
+}
+
+#projects div button{
+	background-color:rgb(64,125,97,1);
+	color: white;
+	border-radius: 8px;
+	border-color: #1d4633;
+	padding: 3px;
+	margin-bottom: 20px;
+	box-shadow: 4px 4px rgb(163,160,163,0.6);
+}
+.footer{
+	width:968px;
+	height:50px;
+}
+.footer p
+{
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 240px;
+}
+.footer ul {
+	width: 380px;
+	margin:auto;
+}
+.footer ul li {
+	display:inline-block;
+}
+.footer img {
+	width: 25px;
+	height:auto;
+	margin:auto;
+}
+.footer, .header{
+	background-color: #f9f9f9
+}
+
+.footer a {
+	color: black;
+}
